@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   description:
     "Diseños artesanales en madera para espacios cotidianos. Piezas funcionales creadas a mano en Uruguay.",
   icons: {
-    icon: "/logoconfondo.png",
+    icon: "/costero.png",
   },
 };
 

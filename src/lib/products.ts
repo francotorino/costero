@@ -29,6 +29,10 @@ export const products: Product[] = [
     description:
       "Tabla rústica con cuencos de cerámica para picadas, salsas y comidas compartidas. Bordes naturales y terminación artesanal hecha a mano.",
     image: "/products/tabla_degustacion.jpg",
+    images: [
+      "/products/tabla_degustacion.jpg",
+      "/products/tabla.mp4",
+    ],
     category: "Mesa",
   },
   {
