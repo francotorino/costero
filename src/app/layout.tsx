@@ -25,7 +25,7 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "Costero | Artesanía en Madera",
+  title: "Costero | Uruguay",
   description:
     "Diseños artesanales en madera para espacios cotidianos. Piezas funcionales creadas a mano en Uruguay.",
   icons: {
