@@ -24,19 +24,6 @@ export const products: Product[] = [
     category: "Cocina",
   },
   {
-    id: 3,
-    name: "Tabla de degustación artesanal",
-    price: 450,
-    description:
-      "Tabla rústica con cuencos de cerámica para picadas, salsas y comidas compartidas. Bordes naturales y terminación artesanal hecha a mano.",
-    image: "/products/tabla_degustacion.jpg",
-    images: [
-      "/products/tabla_degustacion.jpg",
-      "/products/tabla.mp4",
-    ],
-    category: "Mesa",
-  },
-  {
     id: 4,
     name: "Huevera repisa",
     price: 2290,
@@ -64,5 +51,18 @@ export const products: Product[] = [
       "/products/perchero.mp4",
     ],
     category: "Decoración",
+  },
+  {
+    id: 3,
+    name: "Tabla de degustación artesanal",
+    price: 450,
+    description:
+      "Tabla rústica con cuencos de cerámica para picadas, salsas y comidas compartidas. Bordes naturales y terminación artesanal hecha a mano.",
+    image: "/products/tabla_degustacion.jpg",
+    images: [
+      "/products/tabla_degustacion.jpg",
+      "/products/tabla.mp4",
+    ],
+    category: "Mesa",
   },
 ];
