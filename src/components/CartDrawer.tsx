@@ -100,7 +100,7 @@ export default function CartDrawer() {
                 <li key={item.id} className="flex gap-4 py-5">
                   {/* Thumbnail */}
                   <div className="relative w-[68px] h-[68px] flex-shrink-0 rounded-xl overflow-hidden bg-cream-dark">
-                    <Image
+                    {item.image && <Image
                       src={item.image}
                       alt={item.name}
                       fill
@@ -109,7 +109,7 @@ export default function CartDrawer() {
                       onError={(e) => {
                         (e.currentTarget as HTMLImageElement).style.display = "none";
                       }}
-                    />
+                    />}
                   </div>
 
                   {/* Info */}
