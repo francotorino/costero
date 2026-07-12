@@ -53,17 +53,8 @@ export const products: Product[] = [
     description:
       "Fabricado con piques de alambrado y clavos de vía. Dimensiones: 55 x 90 cm.",
     image: "/products/espejo_perchero.jpg",
-    category: "Decoración",
-  },
-  {
-    id: 6,
-    name: "Perchero artesanal de madera",
-    price: null,
-    description:
-      "Piques de alambrado del campo uruguayo con detalles en cerámica y ganchos de hierro color negro.",
-    image: "/products/perchero.jpg",
     images: [
-      "/products/perchero.jpg",
+      "/products/espejo_perchero.jpg",
       "/products/perchero.mp4",
     ],
     category: "Decoración",

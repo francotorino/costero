@@ -87,7 +87,7 @@ export default function ProductCard({ product }: { product: Product }) {
             muted
             loop
             playsInline
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain bg-cream-dark"
           />
         ) : (
           <Image
