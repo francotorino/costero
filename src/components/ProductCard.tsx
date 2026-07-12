@@ -74,7 +74,7 @@ export default function ProductCard({ product }: { product: Product }) {
     <article className="group flex flex-col bg-warm-white border border-border rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5">
       {/* Image area */}
       <div
-        className="relative aspect-[4/3] overflow-hidden"
+        className="relative aspect-square overflow-hidden"
         onTouchStart={images ? handleTouchStart : undefined}
         onTouchEnd={images ? handleTouchEnd : undefined}
       >
@@ -95,7 +95,7 @@ export default function ProductCard({ product }: { product: Product }) {
             alt={product.name}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            className={`transition-transform duration-500 group-hover:scale-[1.04] ${product.imageContain ? "object-contain" : "object-cover"}`}
+            className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
             onError={() => setImgError(true)}
           />
         )}

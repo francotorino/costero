@@ -42,10 +42,10 @@ export const products: Product[] = [
     price: 2290,
     description:
       "Huevera de pared con espacio para 24 huevos, especias y papel de cocina. Dimensiones: 31 x 44 cm.",
-    image: "/products/hrepisablanca.jpeg",
+    image: "/products/repisablancaia.png",
     images: [
-      "/products/hrepisablanca.jpeg",
-      "/products/hrepisablanca2.jpeg",
+      "/products/repisablancaia.png",
+      "/products/repisablancaia2.png",
       "/products/hrepisablanca3.jpeg",
       "/products/hrepisablanca4.jpeg",
     ],
