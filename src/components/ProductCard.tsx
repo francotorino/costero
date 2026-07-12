@@ -68,6 +68,7 @@ export default function ProductCard({ product }: { product: Product }) {
   };
 
   const currentImage = images ? images[currentIndex] : product.image ?? null;
+  const isVideo = (src: string) => /\.(mp4|webm|mov)$/i.test(src);
 
   return (
     <article className="group flex flex-col bg-warm-white border border-border rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5">
@@ -79,6 +80,15 @@ export default function ProductCard({ product }: { product: Product }) {
       >
         {imgError || !currentImage ? (
           <ImagePlaceholder category={product.category} />
+        ) : isVideo(currentImage) ? (
+          <video
+            src={currentImage}
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="w-full h-full object-cover"
+          />
         ) : (
           <Image
             src={currentImage}
