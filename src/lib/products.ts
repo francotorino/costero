@@ -5,6 +5,7 @@ export interface Product {
   description: string;
   image: string | null;
   images?: string[];
+  imageContain?: boolean;
   category: string;
 }
 
@@ -48,6 +49,7 @@ export const products: Product[] = [
       "/products/hrepisablanca3.jpeg",
       "/products/hrepisablanca4.jpeg",
     ],
+    imageContain: true,
     category: "Cocina",
   },
   {
