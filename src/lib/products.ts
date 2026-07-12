@@ -61,8 +61,9 @@ export const products: Product[] = [
     price: null,
     description:
       "Piques de alambrado del campo uruguayo con detalles en cerámica y ganchos de hierro color negro.",
-    image: null,
+    image: "/products/perchero.jpg",
     images: [
+      "/products/perchero.jpg",
       "/products/perchero.mp4",
     ],
     category: "Decoración",
